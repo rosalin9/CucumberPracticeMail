@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Users\\rosal\\eclipse-workspace\\CucumberBasic\\features\\LoginScenarioOutline.feature",
+@CucumberOptions(features="C:\\Users\\rosal\\eclipse-workspace\\CucumberBasic\\features\\Login.feature",
 					glue = {"com.cucumber.steps"},
 					plugin = {"pretty", "html:target/cucumber-reports/cucumber.html", 
 										"json:target/cucumber-reports/cucumber.json"}			
